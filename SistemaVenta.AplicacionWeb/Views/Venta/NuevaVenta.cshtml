@@ -64,7 +64,6 @@
                                     <label asp-for="Repair.IdModel">Modelo:</label>
                                     <select asp-for="Repair.IdModel" class="form-control form-control-sm" id="selectModel">
                                         <option value="">Selecciona un Modelo</option>
-                                        <!-- Las opciones se llenarán dinámicamente mediante AJAX -->
                                     </select>
                                 </div>
 
@@ -97,13 +96,11 @@
             $("#selectBrand").change(function () {
                 var selected = $(this).val();
                 if (selected) {
-                    // Realizar una llamada AJAX para obtener las opciones del modelo
                     $.ajax({
                         url: "/Venta/SelectBrand",
                         type: "GET",
                         data: { id: selected },
                         success: function (data) {
-                            // Limpiar el select actual y agregar nuevas opciones
                             $("#selectModel").empty();
                             $("#selectModel").append('<option value="">Selecciona un Modelo</option>');
                             $.each(data, function (key, value) {
