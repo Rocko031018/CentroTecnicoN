@@ -11,7 +11,7 @@ public partial class Repair
 
     public string Ubication { get; set; } = null!;
 
-    public int NumPhone { get; set; }
+    public long? NumPhone { get; set; }
 
     public string TipeEq { get; set; } = null!;
 

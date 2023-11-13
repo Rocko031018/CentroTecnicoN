@@ -141,17 +141,14 @@ namespace SistemaVenta.AplicacionWeb.Controllers
         [HttpPost]
         public async Task< IActionResult> AgregarReparacion(RepairViewModel modelo)
         {
-            if(modelo.Repair is not null)
+            if(modelo.Repair.IdModel > 0)
             {
                 modelo.Repair.TipeEq = "Telefono";
                 modelo.Repair.Condition = "En Reparación";
                 _context.Add(modelo.Repair);
                 await _context.SaveChangesAsync();
             }
-            var referer = Request.Headers["Referer"].ToString();
-
-            
-            return Redirect(referer);
+            return RedirectToAction("Index", "Home");
         }
 
         [HttpGet]
