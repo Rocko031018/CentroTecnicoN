@@ -1,11 +1,31 @@
 using SistemaVenta.IOC;
+using SistemaVenta.AplicacionWeb.Utilidades.Automapper;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using SistemaVenta.AplicacionWeb.Utilidades.Extensiones;
+using DinkToPdf;
+using DinkToPdf.Contracts;
+using SistemaVenta.AplicacionWeb.Models;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.InyectarDependencia(builder.Configuration);     
+builder.Services.InyectarDependencia(builder.Configuration);
+
+builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
+builder.Services.AddDbContext<DbventaContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("CadenaSQL")));
+var context = new CustomAssemblyLoadContext();
+context.LoadUnmanagedLibrary(Path.Combine(Directory.GetCurrentDirectory(), "Utilidades/LibreriaPDF/libwkhtmltox.dll"));
+builder.Services.AddSingleton(typeof(IConverter), new SynchronizedConverter(new PdfTools()));
+
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(option =>
+    {
+        option.LoginPath = "/Acceso/Login";
+        option.ExpireTimeSpan = TimeSpan.FromMinutes(20);
+    });
 
 var app = builder.Build();
 
@@ -18,10 +38,12 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
+
 app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Acceso}/{action=Login}/{id?}");
 
 app.Run();

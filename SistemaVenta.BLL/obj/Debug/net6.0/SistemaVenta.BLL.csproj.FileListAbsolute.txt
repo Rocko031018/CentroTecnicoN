@@ -15,3 +15,39 @@ D:\universidad\ing. Software\SolucionSistemaVenta\SistemaVenta.BLL\bin\Debug\net
 D:\universidad\ing. Software\SolucionSistemaVenta\SistemaVenta.BLL\bin\Debug\net6.0\SistemaVenta.Entity.pdb
 D:\universidad\ing. Software\SolucionSistemaVenta\SistemaVenta.BLL\obj\Debug\net6.0\SistemaVenta.BLL.csproj.AssemblyReference.cache
 D:\universidad\ing. Software\SolucionSistemaVenta\SistemaVenta.BLL\obj\Debug\net6.0\SistemaVenta.BLL.csproj.CopyComplete
+C:\Users\perez\source\repos\SolucionSistemaVenta\SistemaVenta.BLL\bin\Debug\net6.0\SistemaVenta.BLL.deps.json
+C:\Users\perez\source\repos\SolucionSistemaVenta\SistemaVenta.BLL\bin\Debug\net6.0\SistemaVenta.BLL.dll
+C:\Users\perez\source\repos\SolucionSistemaVenta\SistemaVenta.BLL\bin\Debug\net6.0\SistemaVenta.BLL.pdb
+C:\Users\perez\source\repos\SolucionSistemaVenta\SistemaVenta.BLL\bin\Debug\net6.0\SistemaVenta.DAL.dll
+C:\Users\perez\source\repos\SolucionSistemaVenta\SistemaVenta.BLL\bin\Debug\net6.0\SistemaVenta.Entity.dll
+C:\Users\perez\source\repos\SolucionSistemaVenta\SistemaVenta.BLL\bin\Debug\net6.0\SistemaVenta.DAL.pdb
+C:\Users\perez\source\repos\SolucionSistemaVenta\SistemaVenta.BLL\bin\Debug\net6.0\SistemaVenta.Entity.pdb
+C:\Users\perez\source\repos\SolucionSistemaVenta\SistemaVenta.BLL\obj\Debug\net6.0\SistemaVenta.BLL.csproj.AssemblyReference.cache
+C:\Users\perez\source\repos\SolucionSistemaVenta\SistemaVenta.BLL\obj\Debug\net6.0\SistemaVenta.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\perez\source\repos\SolucionSistemaVenta\SistemaVenta.BLL\obj\Debug\net6.0\SistemaVenta.BLL.AssemblyInfoInputs.cache
+C:\Users\perez\source\repos\SolucionSistemaVenta\SistemaVenta.BLL\obj\Debug\net6.0\SistemaVenta.BLL.AssemblyInfo.cs
+C:\Users\perez\source\repos\SolucionSistemaVenta\SistemaVenta.BLL\obj\Debug\net6.0\SistemaVenta.BLL.csproj.CoreCompileInputs.cache
+C:\Users\perez\source\repos\SolucionSistemaVenta\SistemaVenta.BLL\obj\Debug\net6.0\SistemaVenta.BLL.csproj.CopyComplete
+C:\Users\perez\source\repos\SolucionSistemaVenta\SistemaVenta.BLL\obj\Debug\net6.0\SistemaVenta.BLL.dll
+C:\Users\perez\source\repos\SolucionSistemaVenta\SistemaVenta.BLL\obj\Debug\net6.0\refint\SistemaVenta.BLL.dll
+C:\Users\perez\source\repos\SolucionSistemaVenta\SistemaVenta.BLL\obj\Debug\net6.0\SistemaVenta.BLL.pdb
+C:\Users\perez\source\repos\SolucionSistemaVenta\SistemaVenta.BLL\obj\Debug\net6.0\ref\SistemaVenta.BLL.dll
+C:\Users\Nicolas Torres\OneDrive\Escritorio\Nueva carpeta (2)\SolucionSistemaVenta\SolucionSistemaVenta\SistemaVenta.BLL\bin\Debug\net6.0\SistemaVenta.BLL.deps.json
+C:\Users\Nicolas Torres\OneDrive\Escritorio\Nueva carpeta (2)\SolucionSistemaVenta\SolucionSistemaVenta\SistemaVenta.BLL\bin\Debug\net6.0\SistemaVenta.BLL.runtimeconfig.json
+C:\Users\Nicolas Torres\OneDrive\Escritorio\Nueva carpeta (2)\SolucionSistemaVenta\SolucionSistemaVenta\SistemaVenta.BLL\bin\Debug\net6.0\SistemaVenta.BLL.dll
+C:\Users\Nicolas Torres\OneDrive\Escritorio\Nueva carpeta (2)\SolucionSistemaVenta\SolucionSistemaVenta\SistemaVenta.BLL\bin\Debug\net6.0\SistemaVenta.BLL.pdb
+C:\Users\Nicolas Torres\OneDrive\Escritorio\Nueva carpeta (2)\SolucionSistemaVenta\SolucionSistemaVenta\SistemaVenta.BLL\bin\Debug\net6.0\SistemaVenta.DAL.dll
+C:\Users\Nicolas Torres\OneDrive\Escritorio\Nueva carpeta (2)\SolucionSistemaVenta\SolucionSistemaVenta\SistemaVenta.BLL\bin\Debug\net6.0\SistemaVenta.Entity.dll
+C:\Users\Nicolas Torres\OneDrive\Escritorio\Nueva carpeta (2)\SolucionSistemaVenta\SolucionSistemaVenta\SistemaVenta.BLL\bin\Debug\net6.0\SistemaVenta.DAL.pdb
+C:\Users\Nicolas Torres\OneDrive\Escritorio\Nueva carpeta (2)\SolucionSistemaVenta\SolucionSistemaVenta\SistemaVenta.BLL\bin\Debug\net6.0\SistemaVenta.Entity.pdb
+C:\Users\Nicolas Torres\OneDrive\Escritorio\Nueva carpeta (2)\SolucionSistemaVenta\SolucionSistemaVenta\SistemaVenta.BLL\obj\Debug\net6.0\SistemaVenta.BLL.csproj.AssemblyReference.cache
+C:\Users\Nicolas Torres\OneDrive\Escritorio\Nueva carpeta (2)\SolucionSistemaVenta\SolucionSistemaVenta\SistemaVenta.BLL\obj\Debug\net6.0\SistemaVenta.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nicolas Torres\OneDrive\Escritorio\Nueva carpeta (2)\SolucionSistemaVenta\SolucionSistemaVenta\SistemaVenta.BLL\obj\Debug\net6.0\SistemaVenta.BLL.AssemblyInfoInputs.cache
+C:\Users\Nicolas Torres\OneDrive\Escritorio\Nueva carpeta (2)\SolucionSistemaVenta\SolucionSistemaVenta\SistemaVenta.BLL\obj\Debug\net6.0\SistemaVenta.BLL.AssemblyInfo.cs
+C:\Users\Nicolas Torres\OneDrive\Escritorio\Nueva carpeta (2)\SolucionSistemaVenta\SolucionSistemaVenta\SistemaVenta.BLL\obj\Debug\net6.0\SistemaVenta.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Nicolas Torres\OneDrive\Escritorio\Nueva carpeta (2)\SolucionSistemaVenta\SolucionSistemaVenta\SistemaVenta.BLL\obj\Debug\net6.0\SistemaVenta.BLL.csproj.CopyComplete
+C:\Users\Nicolas Torres\OneDrive\Escritorio\Nueva carpeta (2)\SolucionSistemaVenta\SolucionSistemaVenta\SistemaVenta.BLL\obj\Debug\net6.0\SistemaVenta.BLL.dll
+C:\Users\Nicolas Torres\OneDrive\Escritorio\Nueva carpeta (2)\SolucionSistemaVenta\SolucionSistemaVenta\SistemaVenta.BLL\obj\Debug\net6.0\refint\SistemaVenta.BLL.dll
+C:\Users\Nicolas Torres\OneDrive\Escritorio\Nueva carpeta (2)\SolucionSistemaVenta\SolucionSistemaVenta\SistemaVenta.BLL\obj\Debug\net6.0\SistemaVenta.BLL.pdb
+C:\Users\Nicolas Torres\OneDrive\Escritorio\Nueva carpeta (2)\SolucionSistemaVenta\SolucionSistemaVenta\SistemaVenta.BLL\obj\Debug\net6.0\SistemaVenta.BLL.genruntimeconfig.cache
+C:\Users\Nicolas Torres\OneDrive\Escritorio\Nueva carpeta (2)\SolucionSistemaVenta\SolucionSistemaVenta\SistemaVenta.BLL\obj\Debug\net6.0\ref\SistemaVenta.BLL.dll

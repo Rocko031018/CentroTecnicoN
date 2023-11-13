@@ -7,12 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SistemaVenta.Entity\SistemaVenta.Entity.csproj" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.13">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Implementacion\" />
-    <Folder Include="Interfaces\" />
+    <ProjectReference Include="..\SistemaVenta.Entity\SistemaVenta.Entity.csproj" />
   </ItemGroup>
 
 </Project>

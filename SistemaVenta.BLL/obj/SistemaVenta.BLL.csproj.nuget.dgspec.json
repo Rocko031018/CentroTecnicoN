@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\universidad\\ing. Software\\SolucionSistemaVenta\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj": {}
+    "C:\\Users\\Nicolas Torres\\OneDrive\\Escritorio\\Nueva carpeta (2)\\SolucionSistemaVenta\\SolucionSistemaVenta\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj": {}
   },
   "projects": {
-    "D:\\universidad\\ing. Software\\SolucionSistemaVenta\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj": {
+    "C:\\Users\\Nicolas Torres\\OneDrive\\Escritorio\\Nueva carpeta (2)\\SolucionSistemaVenta\\SolucionSistemaVenta\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\universidad\\ing. Software\\SolucionSistemaVenta\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj",
+        "projectUniqueName": "C:\\Users\\Nicolas Torres\\OneDrive\\Escritorio\\Nueva carpeta (2)\\SolucionSistemaVenta\\SolucionSistemaVenta\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj",
         "projectName": "SistemaVenta.BLL",
-        "projectPath": "D:\\universidad\\ing. Software\\SolucionSistemaVenta\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj",
-        "packagesPath": "C:\\Users\\santi\\.nuget\\packages\\",
-        "outputPath": "D:\\universidad\\ing. Software\\SolucionSistemaVenta\\SistemaVenta.BLL\\obj\\",
+        "projectPath": "C:\\Users\\Nicolas Torres\\OneDrive\\Escritorio\\Nueva carpeta (2)\\SolucionSistemaVenta\\SolucionSistemaVenta\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj",
+        "packagesPath": "C:\\Users\\Nicolas Torres\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nicolas Torres\\OneDrive\\Escritorio\\Nueva carpeta (2)\\SolucionSistemaVenta\\SolucionSistemaVenta\\SistemaVenta.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\santi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nicolas Torres\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\universidad\\ing. Software\\SolucionSistemaVenta\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj": {
-                "projectPath": "D:\\universidad\\ing. Software\\SolucionSistemaVenta\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj"
+              "C:\\Users\\Nicolas Torres\\OneDrive\\Escritorio\\Nueva carpeta (2)\\SolucionSistemaVenta\\SolucionSistemaVenta\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj": {
+                "projectPath": "C:\\Users\\Nicolas Torres\\OneDrive\\Escritorio\\Nueva carpeta (2)\\SolucionSistemaVenta\\SolucionSistemaVenta\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj"
               },
-              "D:\\universidad\\ing. Software\\SolucionSistemaVenta\\SistemaVenta.Entity\\SistemaVenta.Entity.csproj": {
-                "projectPath": "D:\\universidad\\ing. Software\\SolucionSistemaVenta\\SistemaVenta.Entity\\SistemaVenta.Entity.csproj"
+              "C:\\Users\\Nicolas Torres\\OneDrive\\Escritorio\\Nueva carpeta (2)\\SolucionSistemaVenta\\SolucionSistemaVenta\\SistemaVenta.Entity\\SistemaVenta.Entity.csproj": {
+                "projectPath": "C:\\Users\\Nicolas Torres\\OneDrive\\Escritorio\\Nueva carpeta (2)\\SolucionSistemaVenta\\SolucionSistemaVenta\\SistemaVenta.Entity\\SistemaVenta.Entity.csproj"
               }
             }
           }
@@ -46,6 +46,22 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "FirebaseAuthentication.net": {
+              "target": "Package",
+              "version": "[3.7.2, )"
+            },
+            "FirebaseStorage.net": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -62,21 +78,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\universidad\\ing. Software\\SolucionSistemaVenta\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj": {
+    "C:\\Users\\Nicolas Torres\\OneDrive\\Escritorio\\Nueva carpeta (2)\\SolucionSistemaVenta\\SolucionSistemaVenta\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\universidad\\ing. Software\\SolucionSistemaVenta\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Nicolas Torres\\OneDrive\\Escritorio\\Nueva carpeta (2)\\SolucionSistemaVenta\\SolucionSistemaVenta\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj",
         "projectName": "SistemaVenta.DAL",
-        "projectPath": "D:\\universidad\\ing. Software\\SolucionSistemaVenta\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj",
-        "packagesPath": "C:\\Users\\santi\\.nuget\\packages\\",
-        "outputPath": "D:\\universidad\\ing. Software\\SolucionSistemaVenta\\SistemaVenta.DAL\\obj\\",
+        "projectPath": "C:\\Users\\Nicolas Torres\\OneDrive\\Escritorio\\Nueva carpeta (2)\\SolucionSistemaVenta\\SolucionSistemaVenta\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj",
+        "packagesPath": "C:\\Users\\Nicolas Torres\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nicolas Torres\\OneDrive\\Escritorio\\Nueva carpeta (2)\\SolucionSistemaVenta\\SolucionSistemaVenta\\SistemaVenta.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\santi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nicolas Torres\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -90,8 +106,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\universidad\\ing. Software\\SolucionSistemaVenta\\SistemaVenta.Entity\\SistemaVenta.Entity.csproj": {
-                "projectPath": "D:\\universidad\\ing. Software\\SolucionSistemaVenta\\SistemaVenta.Entity\\SistemaVenta.Entity.csproj"
+              "C:\\Users\\Nicolas Torres\\OneDrive\\Escritorio\\Nueva carpeta (2)\\SolucionSistemaVenta\\SolucionSistemaVenta\\SistemaVenta.Entity\\SistemaVenta.Entity.csproj": {
+                "projectPath": "C:\\Users\\Nicolas Torres\\OneDrive\\Escritorio\\Nueva carpeta (2)\\SolucionSistemaVenta\\SolucionSistemaVenta\\SistemaVenta.Entity\\SistemaVenta.Entity.csproj"
               }
             }
           }
@@ -105,6 +121,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -121,21 +145,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\universidad\\ing. Software\\SolucionSistemaVenta\\SistemaVenta.Entity\\SistemaVenta.Entity.csproj": {
+    "C:\\Users\\Nicolas Torres\\OneDrive\\Escritorio\\Nueva carpeta (2)\\SolucionSistemaVenta\\SolucionSistemaVenta\\SistemaVenta.Entity\\SistemaVenta.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\universidad\\ing. Software\\SolucionSistemaVenta\\SistemaVenta.Entity\\SistemaVenta.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\Nicolas Torres\\OneDrive\\Escritorio\\Nueva carpeta (2)\\SolucionSistemaVenta\\SolucionSistemaVenta\\SistemaVenta.Entity\\SistemaVenta.Entity.csproj",
         "projectName": "SistemaVenta.Entity",
-        "projectPath": "D:\\universidad\\ing. Software\\SolucionSistemaVenta\\SistemaVenta.Entity\\SistemaVenta.Entity.csproj",
-        "packagesPath": "C:\\Users\\santi\\.nuget\\packages\\",
-        "outputPath": "D:\\universidad\\ing. Software\\SolucionSistemaVenta\\SistemaVenta.Entity\\obj\\",
+        "projectPath": "C:\\Users\\Nicolas Torres\\OneDrive\\Escritorio\\Nueva carpeta (2)\\SolucionSistemaVenta\\SolucionSistemaVenta\\SistemaVenta.Entity\\SistemaVenta.Entity.csproj",
+        "packagesPath": "C:\\Users\\Nicolas Torres\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nicolas Torres\\OneDrive\\Escritorio\\Nueva carpeta (2)\\SolucionSistemaVenta\\SolucionSistemaVenta\\SistemaVenta.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\santi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nicolas Torres\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -161,6 +185,12 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.12, )"
@@ -169,7 +199,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.12, )"
+              "version": "[7.0.13, )"
             }
           },
           "imports": [
@@ -188,7 +218,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
