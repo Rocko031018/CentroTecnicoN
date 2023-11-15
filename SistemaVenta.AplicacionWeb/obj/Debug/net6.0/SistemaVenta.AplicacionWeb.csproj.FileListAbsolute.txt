@@ -546,9 +546,6 @@ C:\Users\Nicolas Torres\OneDrive\Escritorio\Nueva carpeta (2)\SolucionSistemaVen
 C:\Users\Nicolas Torres\OneDrive\Escritorio\Nueva carpeta (2)\SolucionSistemaVenta\SolucionSistemaVenta\SistemaVenta.AplicacionWeb\bin\Debug\net6.0\appsettings.json
 C:\Users\Nicolas Torres\OneDrive\Escritorio\Nueva carpeta (2)\SolucionSistemaVenta\SolucionSistemaVenta\SistemaVenta.AplicacionWeb\bin\Debug\net6.0\SistemaVenta.AplicacionWeb.staticwebassets.runtime.json
 C:\Users\Nicolas Torres\OneDrive\Escritorio\Nueva carpeta (2)\SolucionSistemaVenta\SolucionSistemaVenta\SistemaVenta.AplicacionWeb\bin\Debug\net6.0\SistemaVenta.AplicacionWeb.exe
-C:\Users\Nicolas Torres\OneDrive\Escritorio\Nueva carpeta (2)\SolucionSistemaVenta\SolucionSistemaVenta\SistemaVenta.AplicacionWeb\bin\Debug\net6.0\Utilidades\LibreriaPDF\libwkhtmltox.dll
-C:\Users\Nicolas Torres\OneDrive\Escritorio\Nueva carpeta (2)\SolucionSistemaVenta\SolucionSistemaVenta\SistemaVenta.AplicacionWeb\bin\Debug\net6.0\Utilidades\LibreriaPDF\libwkhtmltox.dylib
-C:\Users\Nicolas Torres\OneDrive\Escritorio\Nueva carpeta (2)\SolucionSistemaVenta\SolucionSistemaVenta\SistemaVenta.AplicacionWeb\bin\Debug\net6.0\Utilidades\LibreriaPDF\libwkhtmltox.so
 C:\Users\Nicolas Torres\OneDrive\Escritorio\Nueva carpeta (2)\SolucionSistemaVenta\SolucionSistemaVenta\SistemaVenta.AplicacionWeb\bin\Debug\net6.0\SistemaVenta.AplicacionWeb.deps.json
 C:\Users\Nicolas Torres\OneDrive\Escritorio\Nueva carpeta (2)\SolucionSistemaVenta\SolucionSistemaVenta\SistemaVenta.AplicacionWeb\bin\Debug\net6.0\SistemaVenta.AplicacionWeb.runtimeconfig.json
 C:\Users\Nicolas Torres\OneDrive\Escritorio\Nueva carpeta (2)\SolucionSistemaVenta\SolucionSistemaVenta\SistemaVenta.AplicacionWeb\bin\Debug\net6.0\SistemaVenta.AplicacionWeb.dll
@@ -557,7 +554,6 @@ C:\Users\Nicolas Torres\OneDrive\Escritorio\Nueva carpeta (2)\SolucionSistemaVen
 C:\Users\Nicolas Torres\OneDrive\Escritorio\Nueva carpeta (2)\SolucionSistemaVenta\SolucionSistemaVenta\SistemaVenta.AplicacionWeb\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\Nicolas Torres\OneDrive\Escritorio\Nueva carpeta (2)\SolucionSistemaVenta\SolucionSistemaVenta\SistemaVenta.AplicacionWeb\bin\Debug\net6.0\Azure.Core.dll
 C:\Users\Nicolas Torres\OneDrive\Escritorio\Nueva carpeta (2)\SolucionSistemaVenta\SolucionSistemaVenta\SistemaVenta.AplicacionWeb\bin\Debug\net6.0\Azure.Identity.dll
-C:\Users\Nicolas Torres\OneDrive\Escritorio\Nueva carpeta (2)\SolucionSistemaVenta\SolucionSistemaVenta\SistemaVenta.AplicacionWeb\bin\Debug\net6.0\DinkToPdf.dll
 C:\Users\Nicolas Torres\OneDrive\Escritorio\Nueva carpeta (2)\SolucionSistemaVenta\SolucionSistemaVenta\SistemaVenta.AplicacionWeb\bin\Debug\net6.0\Firebase.Auth.dll
 C:\Users\Nicolas Torres\OneDrive\Escritorio\Nueva carpeta (2)\SolucionSistemaVenta\SolucionSistemaVenta\SistemaVenta.AplicacionWeb\bin\Debug\net6.0\Firebase.Storage.dll
 C:\Users\Nicolas Torres\OneDrive\Escritorio\Nueva carpeta (2)\SolucionSistemaVenta\SolucionSistemaVenta\SistemaVenta.AplicacionWeb\bin\Debug\net6.0\Humanizer.dll

@@ -85,6 +85,15 @@ namespace SistemaVenta.AplicacionWeb.Utilidades.Automapper
             CreateMap<Menu, VMMenu>()
                 .ForMember(destino => destino.SubMenus, opt => opt.MapFrom(origen => origen.InverseIdMenuPadreNavigation));
             #endregion
+            #region Repair
+            CreateMap<Models.Repair, Models.ViewModels.VMRepair>()
+                .ForMember(destiny => destiny.Client, opt => opt.MapFrom(origin => origin.ClientNavigation.Nombre)).
+                ForMember(destiny => destiny.Brand, opt => opt.MapFrom(origin => origin.IdBrandNavigation.BrandName)).
+                ForMember(destiny => destiny.Model, opt => opt.MapFrom(origin => origin.IdModelNavigation.ModelName)).
+                ForMember(destiny => destiny.NumPhone, opt => opt.MapFrom(origin => origin.NumPhone.ToString())).
+                ForMember(destiny => destiny.Deposit, opt => opt.MapFrom(origin => origin.Deposit.ToString()));
+                
+            #endregion
         }
     }
 }

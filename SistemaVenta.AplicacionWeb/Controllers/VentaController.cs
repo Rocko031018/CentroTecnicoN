@@ -7,8 +7,7 @@ using SistemaVenta.AplicacionWeb.Utilidades.Response;
 using SistemaVenta.BLL.Interfaces;
 using SistemaVenta.Entity;
 using System.Drawing;
-using DinkToPdf;
-using DinkToPdf.Contracts;
+
 using System.Security.Claims;
 using Microsoft.EntityFrameworkCore;
 using SistemaVenta.AplicacionWeb.Models;
@@ -24,14 +23,12 @@ namespace SistemaVenta.AplicacionWeb.Controllers
         private readonly ITipoDocumentoVentaService _tipoDocumentoVentaService;
         private readonly IVentaService _ventaService;
         private readonly IMapper _mapper;
-        private readonly IConverter _converter;
         private readonly SistemaVenta.AplicacionWeb.Models.DbventaContext _context;
-        public VentaController(ITipoDocumentoVentaService tipoDocumentoVentaService, IVentaService ventaService, IMapper mapper, IConverter converter, SistemaVenta.AplicacionWeb.Models.DbventaContext context)
+        public VentaController(ITipoDocumentoVentaService tipoDocumentoVentaService, IVentaService ventaService, IMapper mapper, SistemaVenta.AplicacionWeb.Models.DbventaContext context)
         {
             _tipoDocumentoVentaService = tipoDocumentoVentaService;
             _ventaService = ventaService;
             _mapper = mapper;
-            _converter = converter;
             _context = context;
         }
         public async Task<IActionResult> NuevaVenta()
@@ -48,9 +45,34 @@ namespace SistemaVenta.AplicacionWeb.Controllers
             return View(model);
         }
 
-        public IActionResult HistorialVenta()
+        public async Task<IActionResult> HistorialVenta()
         {
-            return View();
+         var list =  await _context.Repairs.Include(id => id.IdModelNavigation).Include(id => id.ClientNavigation).Include(
+                id => id.IdBrandNavigation).ToListAsync();
+            if (list is null) return NotFound();
+             var listDTO = _mapper.Map<List<Models.ViewModels.VMRepair>>(list);
+            return View(listDTO);
+        }
+        [HttpGet]
+        public async Task<IActionResult> SearchForEMEI(string imei)
+        {
+            var dat = await _context.Repairs.Where(id => id.Imei == imei).FirstOrDefaultAsync();
+            
+            if (dat is null) return RedirectToAction("HistorialVenta", "Venta");
+            var map = _mapper.Map<Models.ViewModels.VMRepair>(dat);
+            return View(map);
+
+        }
+        [HttpPut]
+        public async Task<IActionResult> Reparado(int idR)
+        {
+            var dat = await _context.Repairs.FirstOrDefaultAsync(id => id.IdRep == idR);
+            if (dat is null) return NotFound();
+            dat.Condition = "Reparado";
+            _context.Repairs.Update(dat);
+            await _context.SaveChangesAsync();
+            return RedirectToAction("HistorialVenta", "Venta");
+
         }
         [HttpGet]
         public async Task<JsonResult> SelectBrand(int id)
@@ -148,7 +170,7 @@ namespace SistemaVenta.AplicacionWeb.Controllers
                 _context.Add(modelo.Repair);
                 await _context.SaveChangesAsync();
             }
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("HistorialVenta", "Venta");
         }
 
         [HttpGet]
@@ -161,23 +183,7 @@ namespace SistemaVenta.AplicacionWeb.Controllers
         public IActionResult MostrarPDFVenta(string numeroVenta)
         {
             string urlPlantillaVista = $"{this.Request.Scheme}://{this.Request.Host}/Plantilla/PDFVenta?numeroVenta={numeroVenta}";
-
-            var pdf = new HtmlToPdfDocument()
-            {
-                GlobalSettings = new GlobalSettings()
-                {
-                    PaperSize = PaperKind.A4,
-                    Orientation = Orientation.Portrait,
-                },
-                Objects =
-                {
-                    new ObjectSettings()
-                    {
-                        Page = urlPlantillaVista
-                    }
-                }
-            };
-            var archivoPDF = _converter.Convert(pdf);
+            var archivoPDF = "dos";
 
             return File(archivoPDF, "application/pdf");
         }

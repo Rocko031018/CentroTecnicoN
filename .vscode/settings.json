@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/84550071-7f60-4ff7-9fd0-4239ac7e6b83/resourceGroups/ventasoft_group-b8c0/providers/Microsoft.Web/sites/ventasoft",
+    "appService.deploySubpath": "SistemaVenta.AplicacionWeb"
+}

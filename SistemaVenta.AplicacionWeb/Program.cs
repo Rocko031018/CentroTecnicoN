@@ -2,8 +2,7 @@ using SistemaVenta.IOC;
 using SistemaVenta.AplicacionWeb.Utilidades.Automapper;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using SistemaVenta.AplicacionWeb.Utilidades.Extensiones;
-using DinkToPdf;
-using DinkToPdf.Contracts;
+
 using SistemaVenta.AplicacionWeb.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -17,8 +16,6 @@ builder.Services.InyectarDependencia(builder.Configuration);
 builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
 builder.Services.AddDbContext<DbventaContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("CadenaSQL")));
 var context = new CustomAssemblyLoadContext();
-context.LoadUnmanagedLibrary(Path.Combine(Directory.GetCurrentDirectory(), "Utilidades/LibreriaPDF/libwkhtmltox.dll"));
-builder.Services.AddSingleton(typeof(IConverter), new SynchronizedConverter(new PdfTools()));
 
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(option =>

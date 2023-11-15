@@ -312,15 +312,15 @@ public partial class DbventasContext : DbContext
                 .HasColumnName("failure");
             entity.Property(e => e.IdBrand).HasColumnName("idBrand");
             entity.Property(e => e.IdModel).HasColumnName("idModel");
+            entity.Property(e => e.Imei)
+                .HasMaxLength(200)
+                .IsUnicode(false)
+                .HasColumnName("imei");
             entity.Property(e => e.NumPhone).HasColumnName("numPhone");
             entity.Property(e => e.TipeEq)
                 .HasMaxLength(100)
                 .IsUnicode(false)
                 .HasColumnName("tipeEq");
-            entity.Property(e => e.Ubication)
-                .HasMaxLength(200)
-                .IsUnicode(false)
-                .HasColumnName("ubication");
 
             entity.HasOne(d => d.ClientNavigation).WithMany(p => p.Repairs)
                 .HasForeignKey(d => d.Client)

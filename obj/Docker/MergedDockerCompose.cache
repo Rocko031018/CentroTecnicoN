@@ -1,0 +1,18 @@
+name: dockercompose8103220261317920915
+services:
+  sistemaventa.aplicacionweb:
+    build:
+      context: C:\Users\Nicolas Torres\OneDrive\Escritorio\Nueva carpeta (2)\SolucionSistemaVenta\SolucionSistemaVenta
+      dockerfile: SistemaVenta.AplicacionWeb/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: sistemaventaaplicacionweb
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 80
+        protocol: tcp
+networks:
+  default:
+    name: dockercompose8103220261317920915_default

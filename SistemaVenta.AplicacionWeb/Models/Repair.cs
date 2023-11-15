@@ -9,7 +9,7 @@ public partial class Repair
 
     public int? Client { get; set; }
 
-    public string Ubication { get; set; } = null!;
+    public string Imei { get; set; } = null!;
 
     public long? NumPhone { get; set; }
 

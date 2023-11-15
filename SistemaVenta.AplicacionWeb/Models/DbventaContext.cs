@@ -317,10 +317,7 @@ public partial class DbventaContext : DbContext
                 .HasMaxLength(100)
                 .IsUnicode(false)
                 .HasColumnName("tipeEq");
-            entity.Property(e => e.Ubication)
-                .HasMaxLength(200)
-                .IsUnicode(false)
-                .HasColumnName("ubication");
+          
 
             entity.HasOne(d => d.ClientNavigation).WithMany(p => p.Repairs)
                 .HasForeignKey(d => d.Client)
